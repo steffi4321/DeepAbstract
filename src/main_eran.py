@@ -10,10 +10,10 @@ import re
 import itertools
 
 current_path = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(current_path, "../../framework/eran"))
-sys.path.insert(0, os.path.join(current_path, "../../framework/eran/tf_verify"))
-sys.path.insert(0, os.path.join(current_path, "../../framework/eran/ELINA"))
-sys.path.insert(0, os.path.join(current_path, "../../framework/eran/ELINA/python_interface"))
+sys.path.insert(0, os.path.join(current_path, "../eran"))
+sys.path.insert(0, os.path.join(current_path, "../eran/tf_verify"))
+sys.path.insert(0, os.path.join(current_path, "../eran/ELINA"))
+sys.path.insert(0, os.path.join(current_path, "../eran/ELINA/python_interface"))
 
 
 from src.writer import localwriter

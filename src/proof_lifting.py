@@ -3,10 +3,10 @@ import sys
 import tensorflow as tf
 
 current_path = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(1, os.path.join(current_path, "../../framework/eran"))
-sys.path.insert(1, os.path.join(current_path, "../../framework/eran/tf_verify"))
-sys.path.insert(1, os.path.join(current_path, "../../framework/eran/ELINA"))
-sys.path.insert(1, os.path.join(current_path, "../../framework/eran/ELINA/python_interface"))
+sys.path.insert(1, os.path.join(current_path, "../eran"))
+sys.path.insert(1, os.path.join(current_path, "../eran/tf_verify"))
+sys.path.insert(1, os.path.join(current_path, "../eran/ELINA"))
+sys.path.insert(1, os.path.join(current_path, "../eran/ELINA/python_interface"))
 
 from src.clustering import *
 from src.models import *
